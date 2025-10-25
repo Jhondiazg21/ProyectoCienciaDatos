@@ -7,7 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "autoviz>=0.1.905",
     "matplotlib>=3.10.7",
+    "nbformat>=4.2.0",
     "pandas>=2.3.3",
+    "plotly>=6.3.1",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
+    "streamlit>=1.50.0",
 ]
