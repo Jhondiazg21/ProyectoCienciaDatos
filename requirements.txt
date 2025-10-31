@@ -1,0 +1,28 @@
+# Requirements file for ProyectoCienciaDatos
+# Generated from pyproject.toml
+
+# Data manipulation
+pandas>=2.3.3
+numpy>=1.24.0
+
+# Machine learning
+scikit-learn>=1.7.2
+
+# Visualization
+matplotlib>=3.10.7
+seaborn>=0.13.2
+plotly>=6.3.1
+
+# Web app
+streamlit>=1.50.0
+
+# Auto visualization
+autoviz>=0.1.905
+
+# Jupyter notebooks
+nbformat>=4.2.0
+jupyter>=1.0.0
+
+# Model persistence
+joblib>=1.0.0
+
