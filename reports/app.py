@@ -4,10 +4,12 @@ import numpy as np
 import joblib
 from pathlib import Path
 
+# Para ejecutar este script, usa el comando en la terminal: streamlit run reports/app.py
+
 DATA_DIR = Path.cwd()  # Ajusta la ruta según sea necesario
 
 # Cargar el modelo previamente guardado
-loaded_model = joblib.load(DATA_DIR / "models" / "trained" / "heart_failure_clinical_records-logistic_regression-v1.joblib")
+loaded_model = joblib.load(DATA_DIR / "models" / "trained" / "heart_failure_clinical_records-random-forest.joblib")
 print("Modelo cargado exitosamente.")
 
 st.title('Predictor de Riesgo de Insuficiencia Cardíaca')
