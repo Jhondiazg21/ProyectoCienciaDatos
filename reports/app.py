@@ -7,7 +7,7 @@ from pathlib import Path
 DATA_DIR = Path.cwd()  # Ajusta la ruta según sea necesario
 
 # Cargar el modelo previamente guardado
-loaded_model = joblib.load(DATA_DIR / "Notebook\heart_failure_clinical_records-logistic_regression-v1.joblib")
+loaded_model = joblib.load(DATA_DIR / "models" / "trained" / "heart_failure_clinical_records-logistic_regression-v1.joblib")
 print("Modelo cargado exitosamente.")
 
 st.title('Predictor de Riesgo de Insuficiencia Cardíaca')
